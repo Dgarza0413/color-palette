@@ -14,3 +14,5 @@ class ColorBox extends Component {
     }
 }
 export default ColorBox;
+
+//we have creating classnames for our css
