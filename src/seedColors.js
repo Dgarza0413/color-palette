@@ -1,4 +1,4 @@
-
+// this has all of our default colors to select from
 export default [
     {
         paletteName: "Material UI Colors",
