@@ -13,3 +13,5 @@ class App extends Component {
 }
 
 export default App;
+
+// this page is about generating the colors
