@@ -5,6 +5,8 @@ import chroma from "chroma-js";
 import { withStyles } from "@material-ui/styles";
 import "./ColorBox.css";
 
+// using with styles from material ui to custom our styles using functions versus inline
+
 const styles = {
     copyText: {
         color: props =>
