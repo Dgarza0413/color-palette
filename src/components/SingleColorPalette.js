@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 import PaletteFooter from "./PaletteFooter";
 import ColorBox from "./ColorBox";
-import "./ColorBox.css"
 
 
 class SingleColorPalette extends Component {
@@ -36,7 +35,7 @@ class SingleColorPalette extends Component {
                     key={color.name}
                     name={color.name}
                     background={color[format]}
-                    showLink={false}
+                    showingFullPalette={false}
                 />
             ));
         return (
@@ -45,7 +44,9 @@ class SingleColorPalette extends Component {
                 <div className="Palette-colors">
                     {colorBoxes}
                     <div className="go-back ColorBox">
-                        <Link to={`/palette/${id}`} className="back-button">Go Back</Link>
+                        <Link to={`/palette/${id}`} className="back-button">
+                            Go Back
+                        </Link>
                     </div>
                 </div>
                 <PaletteFooter paletteName={paletteName} emoji={emoji} />

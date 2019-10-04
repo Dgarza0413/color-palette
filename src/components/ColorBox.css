@@ -39,11 +39,11 @@
 .copy-button{
     opacity: 0;
 }
-
+/* 
 .ColorBox:hover .copy-button{
     opacity: 1;
     transition: 0.5s;
-}
+} */
 
 .box-content{
     position: absolute;
